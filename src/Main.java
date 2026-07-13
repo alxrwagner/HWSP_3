@@ -90,7 +90,7 @@ public class Main {
 
         System.out.println("Если по 250 грамм в день, понадобится " + goalGrams / minWeightLoss + " дней" +
         "\nЕсли по 500 грамм, то понадобится " + goalGrams / maxWeightLoss + " дней" +
-                "\nА в среднем понадобится " + goalGrams / ((minWeightLoss + maxWeightLoss) / 2) + " дней");
+                "\nА в среднем понадобится " + ((goalGrams / minWeightLoss + goalGrams / maxWeightLoss) / 2) + " дней");
 
         System.out.println();
 
