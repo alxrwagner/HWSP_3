@@ -77,7 +77,7 @@ public class Main {
         float gramsPerKilogram = 1000f;
 
         float totalWeightDish = weightBanana * 5 + weightMilkPer100ml * 2 + weightIceCream * 2 + weightEgg * 4;
-        System.out.println("Общий вес блюда в граммах составляет " + gramsPerKilogram + ", а в килограммах " + totalWeightDish / gramsPerKilogram);
+        System.out.println("Общий вес блюда в граммах составляет " + totalWeightDish + ", а в килограммах " + totalWeightDish / gramsPerKilogram);
 
         System.out.println();
 
